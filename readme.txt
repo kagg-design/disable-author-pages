@@ -1,10 +1,10 @@
 === Plugin Name ===
-Contributors:f.staude
-Donate link: https://staude.net/donate/
+Contributors: f.staude, kagg-design
 Tags: widgets, page, post, sidebar, shortcode
 Requires at least: 3.0
-Tested up to: 4.7.2
-Stable tag: 0.11
+Tested up to: 6.3
+Requires PHP: 7.4
+Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,12 +14,11 @@ Disable the author pages
 
 Disable the author pages ( /author=? ) in wordpress and redirect the user to another page.
 
-
 == Installation ==
 
 1. Install the plugin from within the Dashboard or upload the directory `disable-author-pages` and all its contents to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Configure it under settings/disable author pages
+2. Activate the plugin through the 'Plugins' menu in WordPress
+3. Configure it under settings/disable author pages
 
 == Frequently Asked Questions ==
 
@@ -29,13 +28,18 @@ Translations are handled via  https://translate.wordpress.org/projects/wp-plugin
 
 = I found a bug  =
 
-Please report it at https://github.com/staude/disable-author-pages/issues
+Please report it at https://github.com/kagg-design/disable-author-pages/issues
 
 = I have a feature request =
 
-Please report it at https://github.com/staude/disable-author-pages/issues
+Please report it at https://github.com/kagg-design/disable-author-pages/issues
 
 == Changelog ==
+= 1.0 =
+- Tested up to WP 6.3.
+- Required PHP version is 7.4.
+- WP coding standards are implemented.
+
 = 0.11 =
 - version tagging sync github / wordpress.org svn. Thanks to swissspidy
 - fix: notice plugin_settings_link not static. Thanks to swissspidy
